@@ -14,6 +14,10 @@ git clone https://github.com/xiaomi-sm4450-sky/android_xiaomi_sky_kernel.git -b 
 echo "Cloning vendor repository..."
 git clone https://github.com/xiaomi-sm4450-sky/android_vendor_xiaomi_sky.git -b 15.0 vendor/xiaomi/sky
 
+# Clone the firmware source
+echo "Cloning firmware repository..."
+git clone https://github.com/xiaomi-sm4450-sky/android_vendor_xiaomi_sky-firmware.git -b OS2.0.9.0.VMWEUXM vendor/xiaomi/sky-firmware
+
 # Clone the dolby repository
 echo "Cloning dolby hardware repository..."
 git clone https://github.com/xiaomi-sm4450-sky/android_hardware_dolby.git -b 15 hardware/dolby

@@ -285,4 +285,11 @@
     <string name="db_default_journal_mode" translatable="false">MEMORY</string>
     <string name="db_default_sync_mode" translatable="false">OFF</string>
     <string name="db_wal_sync_mode" translatable="false">OFF</string>
+
+    <!-- Smart 5G -->
+    <bool name="config_supportSmart5G">true</bool>
+
+    <!-- PowerOffAlarmService -->
+    <bool name="config_powerOffAlarmEnabled">true</bool>
+
 </resources>

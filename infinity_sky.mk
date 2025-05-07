@@ -26,10 +26,11 @@ $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 # Infinity-X Flags
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_BOOT_ANIMATION_RES := 1080
+INFINITY_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_BLUR := true
 INFINITY_MAINTAINER := "kAiF"
+USE_MOTO_CALCULATOR := true
 WITH_GAPPS := true
-TARGET_SHIPS_FULL_GAPPS := true
-USE_PIXEL_CHARGER := true
 
 ## Device identifier
 PRODUCT_DEVICE := sky

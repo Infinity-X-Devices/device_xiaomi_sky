@@ -80,7 +80,6 @@ vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so;MAKE_COPY_RULE_ONLY
 vendor/etc/models/acd/event.eai
 vendor/etc/models/acd/music.eai
 vendor/etc/models/acd/speech.eai
-vendor/lib64/android.hardware.audio.common@7.0-util.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/hw/audio.primary.parrot.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/libadm.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/libar-acdb.so;MAKE_COPY_RULE_ONLY
